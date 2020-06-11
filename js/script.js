@@ -11,6 +11,7 @@ let food = {
     x: Math.floor(Math.random() * 15 + 1) * box,
     y: Math.floor(Math.random() * 15 + 1) * box
 }
+let pontos = 0;
 
 function criarBG() {
     context.fillStyle = "lightgreen";
@@ -27,6 +28,8 @@ function drawFood(){
     context.fillStyle = "red";
     context.fillRect(food.x, food.y, box, box);
 }
+
+
 
 document.addEventListener('keydown', update);
 
@@ -76,6 +79,7 @@ function iniciarJogo(){
         y: snakeY
     }
 
+   
     snake.unshift(newhead)
 
 }

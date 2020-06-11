@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    color: green;
+    font-size: 30px;
+}
+body{
+    background-color: honeydew;
+}
+
+#telaGame {
+    height: 90vh;
+    width: 90vm;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(170, 167, 167);
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-bottom: 50px;
+}
